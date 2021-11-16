@@ -1,4 +1,4 @@
-package com.sanix.spring_cloud_stream_demo.movie;
+package com.sanix.processor.movies;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class Movie {
-
     private String title;
     private String actor;
     private int year;

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sanix</groupId>
-	<artifactId>spring_cloud_stream_demo</artifactId>
+	<artifactId>processor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring_cloud_stream_demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -28,15 +28,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-stream-binder-kafka-streams</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-stream-binder-kafka</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.kafka</groupId>
-			<artifactId>kafka-streams</artifactId>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-stream-binder-kafka-streams</artifactId>
 		</dependency>
 
 		<dependency>

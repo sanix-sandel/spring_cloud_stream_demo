@@ -1,4 +1,4 @@
-package com.sanix.spring_cloud_stream_demo.movie;
+package com.sanix.sink.movie;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
