@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.sanix</groupId>
-	<artifactId>spring_cloud_stream_demo</artifactId>
+	<artifactId>sink</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring_cloud_stream_demo</name>
+	<name>sink</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -35,11 +35,6 @@
 			<artifactId>spring-cloud-stream-binder-kafka</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.kafka</groupId>
-			<artifactId>kafka-streams</artifactId>
-		</dependency>
-
-		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
@@ -55,10 +50,6 @@
 			<scope>test</scope>
 			<classifier>test-binder</classifier>
 			<type>test-jar</type>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.datatype</groupId>
-			<artifactId>jackson-datatype-jsr310</artifactId>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
